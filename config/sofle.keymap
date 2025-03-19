@@ -63,10 +63,10 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp DELETE      &trans           &kp PLUS         &kp MINUS        &kp ASTERISK     &kp SLASH                    &kp F1  &kp F2  &kp F3  &kp F4   &kp F5   &kp F6
-&kp EQUAL       &kp BACKSPACE    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans                       &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&kp ENTER       &kp KP_NUMBER_0  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans                       &trans  &trans  &trans  &trans   &trans   &trans
-&kp LEFT_SHIFT  &kp PERIOD       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans     &trans    &trans  &trans  &trans  &trans  &trans   &trans   &trans
+&kp DELETE      &trans           &kp PLUS         &kp MINUS        &kp ASTERISK     &kp SLASH                    &trans  &trans  &trans  &trans  &trans  &trans
+&kp EQUAL       &kp BACKSPACE    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans                       &trans  &trans  &trans  &trans  &trans  &trans
+&kp ENTER       &kp KP_NUMBER_0  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans                       &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp PERIOD       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
                                  &trans           &trans           &trans           &trans     &trans    &trans  &trans  &trans  &trans  &trans
             >;
 
