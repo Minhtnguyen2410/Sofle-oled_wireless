@@ -9,24 +9,24 @@ layers:
   - '-'
   - '*'
   - /
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '='
   - BACKSPACE
   - KP 7
   - KP 8
   - KP 9
   - {t: ▽, type: trans}
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ENTER
   - KP 0
   - KP 4
