@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, BACKSPACE, raise, A, S, D, F, G, H, J, K, L, ;, '''',
-    LSHFT, Z, X, C, V, B, MUTE, '', N, M, ',', ., /, ENTER, LCTRL, LEFT WIN, LEFT ALT, SPACE, lower, raise, SPACE, RIGHT ALT, RIGHT WIN, RCTRL]
+  default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, TAB, Q, W, E, R, T, Y, U, I, O, P, BACKSPACE, raise, A, S, D, F, G, H, J, K, L, ;, '''',
+    LSHFT, Z, X, C, V, B, MUTE, '', N, M, ',', ., /, ENTER, LEFT ALT, LEFT WIN, LCTRL, SPACE, lower, raise, SPACE, RIGHT ALT, RIGHT WIN, RCTRL]
   lower:
   - DELETE
   - {t: ▽, type: trans}
@@ -65,18 +65,18 @@ layers:
   - {t: ▽, type: trans}
   raise:
   - BT CLR
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - HOME
   - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - UP ARROW
   - {t: ▽, type: trans}
@@ -86,9 +86,9 @@ layers:
   - '['
   - ']'
   - '|'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
+  - F11
+  - END
+  - {t: BT, h: '1', type: held}
   - LEFT
   - DOWN ARROW
   - RIGHT ARROW
@@ -98,22 +98,22 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F12
+  - PAGE UP
+  - {t: BT, h: '2'}
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
